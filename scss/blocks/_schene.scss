@@ -1,0 +1,40 @@
+.schene {
+      height: 1080px;
+      background-image: url(../images/leped-bg.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+
+    &__content-header {
+        margin-top: 100px;
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__item {
+        margin-top: 65px;
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+    &__card {
+        flex-basis: 30%;
+
+        &-title {
+            margin-top: 33px;
+            color: #1a1820;
+            font-family: 'ProximaNova_bold';
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &-text {
+            margin-top: 30px;
+            color: #1a1820;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 63px;
+        }
+    }
+}

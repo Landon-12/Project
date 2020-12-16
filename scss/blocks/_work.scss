@@ -1,0 +1,29 @@
+.work {
+    margin-top: 85px;
+    height: 655px;
+    background-image: url(../images/work-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 66% center;
+    background-size: cover;
+    &__inner {
+       display: flex;
+       justify-content: space-between;
+    }
+    &__content {
+        color: #292929;
+        padding-top: 160px;
+    }
+    &__title {
+        font-size: 40px;
+        font-family: 'ProximaNova_bold';
+        font-weight: 700;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-size: 24px;
+    }
+    &__input {
+        width: 100%;
+    }
+}

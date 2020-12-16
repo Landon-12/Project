@@ -1,0 +1,32 @@
+.services {
+    background-color: #286b0a;
+    padding-bottom: 112px;
+    &__content {
+        padding-top: 80px;
+        text-align: center;
+        color: #fcfcfc;
+    }
+    &__subtitle {
+        font-size: 19px;
+        line-height: 18px;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    &__card {
+        flex-basis: 40%;
+        text-align: center;
+        &-title {
+            color: #fcfcfc;
+            font-family: 'ProximaNova_bold';
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &-btn {
+            padding: 21px 50px 18px 50px;
+        }
+    }
+}

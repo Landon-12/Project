@@ -1,0 +1,116 @@
+.header {
+    padding-top: 30px;
+    height: 700px;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-info {
+       
+        &__phone {
+            font-weight: 600;
+            color: $text-color;
+            text-decoration: none;
+            font-size: 24px;
+            margin-right: 30px;
+
+            &:hover, .focus, .active {
+                color: hsla(0, 0%, 21%, 0.884);
+            }
+        }
+    }
+}
+
+.hero {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-top: 105px;
+        color: #292929;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: #292929;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &__time-work {
+        width: 225px;
+        text-align: center;
+        margin-top: 60px;
+        display: block;
+        background-color: #70c849;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px 41px 15px 40px;
+        line-height: 30px;
+        
+        strong {
+            font-size: 30px;
+        }
+    }
+    &__description {
+        margin-top: 17px;
+        color: #292929;
+        font-family: 'ProximaNova_bold';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+}
+
+.main-form {
+    height: 410px;
+    margin-top: 110px;
+    background-color: #fff;
+    padding: 46px 50px 43px 50px;
+    position: relative;
+   
+   &__title {
+    text-align: center;
+    color: #292929;
+    font-size: 18px;
+    font-weight: 400;
+   }
+   &__leble {
+       display: block;
+   }
+   &__input {
+       display: block;
+       width: 256px;
+   }
+   &__button {
+       width: 100%;
+       padding: 27px 55px;
+   }
+   &__text {
+    color: #565656;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 13px;
+   }
+   &__description {
+       margin-top: 66px;
+       color: #565656;
+       font-size: 12px;
+       font-weight: 400;
+   }
+}
+form {
+    text-align: center;
+}

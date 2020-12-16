@@ -1,0 +1,129 @@
+.reviews {
+    height:  1219px;
+    background-image: url(../images/reviews/reviews-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    &-slider {
+        margin-top: 100px;
+        padding: 56px 60px;
+        box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11);
+        background-color: #fff;
+    }
+&-slider-items {
+//    outline-color: #49bf15;
+}
+ &-slider__wrap {
+     display: flex;
+    justify-content: center;
+}
+
+  &__content {
+      margin-left: 40px;
+  }
+
+    &__link {
+        list-style: none;
+        color: #1a1820;
+        font-size: 16px;
+        padding: 15px 0;
+
+        strong {
+            color: #000;
+        }
+    }
+    &__comment-user {
+        color: #1a1820;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__comment-nmae {
+        font-size: 16px;
+        font-family: 'ProximaNova_bold';
+        font-weight: 700;
+    }
+    &__desc {
+        width: 510px;
+        color: #1a1820;
+        font-size: 15px;
+        line-height: 18px;
+        border: 2px solid #49bf15;
+        padding: 14px 0 10px 14px;
+        position: relative;
+        &::before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            border: 2px solid #49bf15;
+            border-bottom: none;
+            left: 50px;
+            top: -19px;
+            position: absolute;
+            border-top-right-radius: 100px;
+        }
+    }
+    &__comments {
+        display: flex;
+        &-com {
+            margin-left: 20px;
+        }
+    }
+
+    &__form {
+        text-align: center;
+        margin-top: 110px;
+
+        &-title {
+            color: #1a1820;
+            font-family: 'ProximaNova_bold';
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 18px;
+            margin-bottom: 43px;
+        }
+        &-input {
+            width: 256px;
+            margin: 0 33px 31px 0;
+        }
+        &-btn {
+            width: 257px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__prev-btn {
+        left: -21px;
+    }
+    &__next-btn {
+       right: -60px;    
+    }
+    &__form-back {
+        display: inline-block;
+    }
+   &-input {
+       margin: 0 auto;
+       margin-left: 33px;
+   }
+   &-name {
+       left: 40%;
+   }
+   &-phone {
+       left: 62%;
+   }
+   &-btn {
+       margin: 30px auto;
+       display: block;
+       padding: 27px 55px;
+   }
+}
+.video__content {
+    display: flex;
+
+    &-card {
+        margin-right: 16px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

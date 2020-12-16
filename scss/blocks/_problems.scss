@@ -1,0 +1,100 @@
+.problems {
+    position: relative;
+
+    &__title {
+        margin-bottom: 185px;
+    }
+    
+    &-women {
+        content: '';
+        position: absolute;
+        width: 19rem;
+        bottom: -26px;
+        left: 61%;
+        margin-left: -19rem;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        border: 4px solid #e8e8e8;
+        padding: 50px 84px 0 50px;
+        &-title {
+            color: rgba(49, 49, 49, 0.5);
+            font-family: 'ProximaNova_bold';
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &-list {
+            margin-top: 50px;
+        }
+        &-photo {
+            margin-right: 27px;
+        }
+       &-link {
+           margin-bottom: 30px;
+           color: #313131;
+           font-size: 16px;
+           line-height: 18px;
+           position: relative;
+           padding-left: 3.5rem;
+       }
+       &-list &-link::before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 30px;
+              height: 30px;
+              background-image: url(../images/problems/x-icon.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: 70%;
+       }
+    }
+}
+
+.decision {
+
+    &__item {
+        border: 4px solid #358015;
+        padding: 50px 43px 0 70px;
+
+        &-title {
+            color: #313131;
+            font-family: 'ProximaNova_bold';
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        &-list {
+
+        }
+        &-link {
+            color: #313131;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        &-list &-link::before {
+            content: '';
+            position: absolute;
+            left: -15%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            background-image: url(../images/problems/check-iocns.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 70%;
+     }
+    }
+}

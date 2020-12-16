@@ -1,0 +1,68 @@
+body {
+    font-family: 'ProximaNova_reg', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+.button {
+ background-color: #feb403;
+ border: none;
+ color: #fff;
+ text-transform: uppercase;
+ border-radius: 13px;
+ font-family: 'ProximaNova_bold';
+ font-size: 16px;
+ padding: 21px 27px;
+ transition: background-color .2s linear;
+ cursor: pointer;
+
+ &:hover, .active, .focus {
+     background-color: #eba400;
+ }
+}
+
+.input {
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding-left: 10px; 
+    margin: 22px 0;
+}
+.lable {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #565656;
+    font-family: 'ProximaNova_bold';
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.global-title {
+    text-align: center;
+    font-family: 'ProximaNova_bold';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.slick {
+    &-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 50px;
+        background-color: #49bf15;
+        border: none;
+        
+        img {
+            width: 50%;
+        }
+    }
+}
+
+$text-color: #292929;
+$bnt-color: #feb403;

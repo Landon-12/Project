@@ -1,0 +1,38 @@
+.features {
+    margin-top: 93px;
+    &__title {
+        text-align: center;
+        color: #1a1820;
+        font-family: 'ProximaNova_bold';
+        font-size: 36px;
+        font-weight: 700;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 130px;
+    }
+    &__card {
+        flex-basis: 30%;
+        &-title {
+            color: #1a1820;
+            font-family: 'ProximaNova_bold';
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 33px;
+        }
+        &-description {
+            margin-top: 35px;
+            color: #1a1820;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+        &-link {
+            color: #4aa223;
+            text-decoration: underline
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.option {
+    height: 1081px;
+    background-image: url(../images/option/option-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__title {
+        padding-top: 120px;
+        color: #fff;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__button {
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(277%, -170%); 
+    }
+
+    &__items {
+         display: flex;
+         justify-content: space-between;
+    }
+    &__card {
+        width: 400px;
+        box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
+        background-color: #fff;
+        text-align: center;
+        padding-bottom: 45px;
+
+        &-title {
+            padding-top: 50px;
+            color: #1a1820;
+            font-family: 'ProximaNova_bold';
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+        &-price {
+            margin-top: 35px;
+            color: #1a1820;
+            font-size: 19px;
+            line-height: 20px;
+
+            strong {
+                font-family: 'ProximaNova_bold';
+                font-weight: 700;
+                font-size: 30px;
+            }
+        }
+        &-list {
+          display: inline;
+          text-align: center;
+        }
+        &-link {
+            list-style: none;
+            color: #1a1820;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-check {
+            color: #477d30;
+            margin-right: 13px;
+        }
+        &-btn {
+            margin-top: 112px;
+            padding: 26px 60px 27px 58px;
+        }
+        &-buttons {
+            margin-top: 52px;
+        }
+        &-button {
+            margin-top: 22px;
+        }
+    }
+}

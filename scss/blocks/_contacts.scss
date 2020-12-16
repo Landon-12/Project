@@ -1,0 +1,71 @@
+.contacts {
+    height: 750px;
+    background-image: url(../images/contacts-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        padding-top: 80px;
+        margin-top: 0;
+        color: #292929;
+        font-family: 'ProximaNova_bold';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+    &__addres {
+        color: #292929;
+        font-size: 18px;
+    }
+    &__phone {
+        text-decoration: none;
+        color: #292929;
+        font-family: 'ProximaNova_bold';
+        font-size: 18px;
+        font-weight: 700;
+        transition: opacity .2s linear;
+        &:hover, &:focus, &active {
+            opacity: .7;
+        }
+    }
+
+    &__mail {
+        color: #292929;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: underline;
+
+        &:hover, &:focus, &action {
+            color: #000;
+        }
+    }
+    &__form {
+        margin-top: 80px;
+        background-color: #fff;
+        padding: 47px 50px 45px 50px;
+        
+        &-title {
+            text-align: center;
+            color: #292929;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 35px;
+        }
+    }
+    &__lable {
+        left: 82%;
+    }
+    &__bg-input {
+        height: 95px;
+    }
+    &__btn {
+        padding: 28px 12px 27px 29px;
+    }
+}
